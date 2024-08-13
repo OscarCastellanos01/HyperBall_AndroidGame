@@ -1,8 +1,13 @@
 {
-    "id": "c5e4388d-58aa-4e69-bdbb-9baae35ca493",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "movements",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"movements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"movements",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

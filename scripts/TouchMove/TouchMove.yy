@@ -1,8 +1,13 @@
 {
-    "id": "e9fd002f-a9f3-4692-b299-ec1361559b34",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TouchMove",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"TouchMove",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TouchMove",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

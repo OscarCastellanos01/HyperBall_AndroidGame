@@ -8,7 +8,7 @@ if (mouse_check_button_pressed(mb_left)){
 	
 	//crear la bola en movimiento.
 	randomize();
-	cambio = choose(oBall2,oBall);
+	var cambio = choose(oBall2,oBall);
 	instance_create_layer(oControl.x+320,oControl.y+704,"Instances",cambio);
 	
 	//Crea el jugador.
