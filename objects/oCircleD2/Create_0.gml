@@ -1,1 +1,0 @@
-bloqueo = false;

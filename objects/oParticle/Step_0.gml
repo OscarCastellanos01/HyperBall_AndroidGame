@@ -1,1 +1,0 @@
-part_particles_create(global.partSytem,x,y,global.ptBasic,1);

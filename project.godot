@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Hyper Ball"
+run/main_scene="res://scenes/Game.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+boot_splash/bg_color=Color(0.078431, 0.086275, 0.101961, 1)
+boot_splash/show_image=false
+boot_splash/image="uid://bgcnjx3vthkym"
+config/icon="res://assets/sprites/sCircle2.png"
+
+[autoload]
+
+Globals="*res://scripts/Globals.gd"
+
+[boot_splash]
+
+show_image=false
+bg_color=Color(0.078431, 0.086275, 0.101961, 1)
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1560
+window/size/mode=3
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
